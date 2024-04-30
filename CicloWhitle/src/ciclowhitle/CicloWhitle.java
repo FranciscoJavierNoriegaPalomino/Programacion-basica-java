@@ -5,14 +5,14 @@ public class CicloWhitle {
         boolean salir = false;
         
         while(!salir){
-        System.out.println("---------------------------");
-        System.out.println("Bienvenido a ......");
-        System.out.println("1.- Saludar");
-        System.out.println("2.- Despedir");
-        System.out.println("3.- Cobrar");
-        System.out.println("4.- Escapar");
-        System.out.println("5.- Salir");
-        System.out.println("---------------------------");
+            System.out.println("---------------------------");
+            System.out.println("Bienvenido a ......");
+            System.out.println("1.- Saludar");
+            System.out.println("2.- Despedir");
+            System.out.println("3.- Cobrar");
+            System.out.println("4.- Escapar");
+            System.out.println("5.- Salir");
+            System.out.println("---------------------------");
         
         Scanner scanner = new Scanner(System.in);        
         int Opcion = scanner.nextInt();
